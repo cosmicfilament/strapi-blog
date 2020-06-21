@@ -1,0 +1,15 @@
+
+
+version: '3.8'
+
+services:
+  react:
+    env_file: .env
+    stdin_open: true
+    image: jpbutler2000/strapi-client
+    ports:
+      - target: 3000
+        published: $REACT_PUBLIC_PORT
+    volumes:
+      - ./:/client/app
+    

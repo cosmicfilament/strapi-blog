@@ -1,0 +1,14 @@
+GET http://strapi-blog.edu/posts/and?categories.name=nodejs&categories.name=strapi
+###
+
+POST http://strapi-blog.edu/auth/local HTTP/1.1
+content-type: application/json
+
+{
+    "identifier": "jpbutler",
+    "password": "admin123"
+}
+###
+
+GET http://strapi-blog.edu/posts/and?categories.name=nodejs&categories.name=strapi
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlZDdmMmFhZTJjMTFlMDA3ZWU0ZmUzNiIsImlhdCI6MTU5MTI4NTA2MiwiZXhwIjoxNTkzODc3MDYyfQ.DgrChmAfyaiAebvS6tVASRGVuJ205G337uzM0f01GM8
