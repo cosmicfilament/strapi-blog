@@ -1,12 +1,12 @@
 module.exports = {
 	//...
-	settings: {
-		cors: {
-			enabled: true,
-			origin: '*'
-		},
-		ip: {
-			enabled: false
-		}
-	}
+	// settings: {
+	// 	cors: {
+	// 		enabled: true,
+	// 		origin: '*'
+	// 	},
+	// 	ip: {
+	// 		enabled: false
+	// 	}
+	// }
 };

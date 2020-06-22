@@ -1,0 +1,28 @@
+{
+	"name": "strapi-plugin-download-db-data",
+	"version": "0.0.1",
+	"description": "Allows you to download the contents of the database to json.",
+	"strapi": {
+		"name": "download-db-data",
+		"icon": "plug",
+		"description": "Allows you to download the contents of the database to json."
+	},
+	"dependencies": {},
+	"author": {
+		"name": "john p. butler",
+		"email": "john@thecosmicfilament.com",
+		"url": "https://www.thecosmicfilament.com"
+	},
+	"maintainers": [
+		{
+			"name": "john p. butler",
+			"email": "john@thecosmicfilament.com",
+			"url": "https://www.thecosmicfilament.com"
+		}
+	],
+	"engines": {
+		"node": ">=10.0.0",
+		"npm": ">=6.0.0"
+	},
+	"license": "MIT"
+}
