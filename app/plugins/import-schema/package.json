@@ -1,11 +1,11 @@
 {
-  "name": "strapi-plugin-export-schema",
+  "name": "strapi-plugin-import-schema",
   "version": "0.0.0",
   "description": "This is the description of the plugin.",
   "strapi": {
-    "name": "export-schema",
+    "name": "import-schema",
     "icon": "plug",
-    "description": "Description of export-schema plugin."
+    "description": "Description of import-schema plugin."
   },
   "dependencies": {},
   "author": {

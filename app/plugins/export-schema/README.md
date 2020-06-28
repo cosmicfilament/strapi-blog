@@ -1,3 +1,3 @@
-# Strapi plugin exportSchema
+# Strapi plugin export-schema
 
-A quick description of exportSchema.
+A quick description of export-schema.
