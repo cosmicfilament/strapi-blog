@@ -28,6 +28,6 @@ module.exports = {
 'graphql': require('../../plugins/strapi-plugin-graphql/admin/src').default,
 'upload': require('../../plugins/strapi-plugin-upload/admin/src').default,
 'users-permissions': require('../../plugins/strapi-plugin-users-permissions/admin/src').default,
-  
+  'export-schema': require('../../../plugins/export-schema/admin/src').default
 }
   

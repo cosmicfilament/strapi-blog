@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * download-database.js controller
+ * export-schema.js controller
  *
- * @description: A set of functions called "actions" of the `download-database` plugin.
+ * @description: A set of functions called "actions" of the `export-schema` plugin.
  */
 
 module.exports = {

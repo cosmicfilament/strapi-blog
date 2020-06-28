@@ -3,7 +3,7 @@
     {
       "method": "GET",
       "path": "/",
-      "handler": "download-database.index",
+      "handler": "export-schema.index",
       "config": {
         "policies": []
       }
